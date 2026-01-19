@@ -1,12 +1,9 @@
 BasedOnStyle: Google
-ColumnLimit: 100
+ColumnLimit: 80
 
 IndentWidth: 2
 ContinuationIndentWidth: 2
 AccessModifierOffset: -2
-
-SpaceBeforeCpp11BracedList: false
-Cpp11BracedListStyle: false
 
 BinPackArguments: false
 AllowAllArgumentsOnNextLine: false
@@ -18,5 +15,3 @@ AlignAfterOpenBracket: BlockIndent
 
 AllowShortBlocksOnASingleLine: Never
 AllowShortFunctionsOnASingleLine: Empty
-
-LambdaBodyIndentation: OuterScope
